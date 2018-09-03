@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"strconv"
 	"unicode"
 )
@@ -49,7 +50,12 @@ func secondParsing(subject *Subject) {
 		}
 
 		//Classroom parsing
-		DayAndTime.Classroom = subject.SuupRoomNms[idx]
+		if len(subject.SuupRoomNms) != 0 {
+			fmt.Println("SuupRoomNms!")
+			DayAndTime.Classroom = subject.SuupRoomNms[idx]
+		} else {
+			fmt.Println("No SuupRoomNms!")
+		}
 
 		subject.SecondData.TimesAndClass = append(subject.SecondData.TimesAndClass, DayAndTime)
 		DayAndTime = parsedTimeAndClass{}

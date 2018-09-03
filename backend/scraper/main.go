@@ -23,7 +23,8 @@ func main() {
 	}
 
 	chromeDriver := webdriver.NewChromeDriver("./chromedriver_mac")
-	htmlPages := 233 // It means the last number of html page
+	// htmlPages := 233 // It means the last number of html page
+	htmlPages := 6 // It means the last number of html page
 
 	err := chromeDriver.Start()
 	if err != nil {
@@ -174,6 +175,8 @@ func main() {
 	time.Sleep(3 * time.Second)
 	session.Delete()
 	chromeDriver.Stop()
+
+	return
 
 	// start transfering
 	fmt.Println("transfering saved html sources to server...")

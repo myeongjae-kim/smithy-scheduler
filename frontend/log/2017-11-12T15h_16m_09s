@@ -1,0 +1,12 @@
+2017/11/12 15:16:09 (main) The Logger has been initialized.
+2017/11/12 15:16:09 (getMajorListFromDB) The subjects list has been generated.
+2017/11/12 15:16:09 (main) The majorNameListJSON has been generated.
+2017/11/12 15:16:09 (main) Waiting request... 
+2017/11/12 15:16:18 (rootHandler) The Main page access has been occurred.
+2017/11/12 15:16:34 (rootHandler)  open ./webRoot/apple-touch-icon-precomposed.png: no such file or directory
+2017/11/12 15:16:34 (rootHandler)  open ./webRoot/favicon.ico: no such file or directory
+2017/11/12 15:16:34 (rootHandler)  open ./webRoot/apple-touch-icon.png: no such file or directory
+2017/11/12 15:16:56 (getDataFromDBByMajor) Request Major: 컴퓨터전공, Subjects Count: 70
+2017/11/12 15:16:56 (getDataFromDBByMajor) Request Major: 컴퓨터전공, Subjects Count: 70
+2017/11/12 15:16:56 (sendDataByMajorHandler) The subject data have been sent.
+2017/11/12 15:16:56 (sendSubjectTableHandler) The subject table html code has been sent to browser.

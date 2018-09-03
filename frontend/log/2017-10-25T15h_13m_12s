@@ -1,0 +1,8 @@
+2017/10/25 15:13:12 (main) The Logger has been initialized.
+2017/10/25 15:13:12 (getMajorListFromDB) The subjects list has been generated.
+2017/10/25 15:13:12 (main) The majorNameListJSON has been generated.
+2017/10/25 15:13:12 (main) Waiting request... 
+2017/10/25 15:13:19 (rootHandler) The Main page access has been occurred.
+2017/10/25 15:13:28 (rootHandler)  open ./webRoot/favicon.ico: no such file or directory
+2017/10/25 15:13:28 (rootHandler)  open ./webRoot/apple-touch-icon-precomposed.png: no such file or directory
+2017/10/25 15:13:28 (rootHandler)  open ./webRoot/apple-touch-icon.png: no such file or directory
